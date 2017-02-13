@@ -1,0 +1,48 @@
+/*
+ * Main Layout
+ */
+header {
+    text-align:center;
+}
+
+.logo img{
+    width:100%;
+}
+
+footer {
+    text-align:center;
+    background-color: #CCC;
+    color:white;
+}
+
+/*
+ * Nav
+ */
+ .main-nav,
+ .main-nav li {
+     list-style: none;
+     display: block;
+     margin:0;
+     padding:0;
+ }
+ .main-nav li {
+     padding: 5px 0px;
+ }
+ .main-nav li a {
+     display:block;
+ }
+
+
+/*
+ * Typography
+ */
+
+/*
+ * Images
+ */
+ .kitty {
+     width:100%;
+ }
+/*
+ * Media Queries
+ */
