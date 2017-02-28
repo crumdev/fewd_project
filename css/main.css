@@ -9,12 +9,22 @@ body {
     box-sizing: border-box;
 }
 
+.nav {
+    margin-bottom:10px;
+}
+
+.nav-item img {
+    max-height:3em;
+}
+
 #animals {
     flex-wrap: wrap;
 }
 
 @media (min-width:768px) {
-   
+   .nav-item img {
+        max-height: 3em;
+    }
 }
 
 @media (min-width:1280px) {

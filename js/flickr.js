@@ -30,7 +30,7 @@ function callback (resp) {
                 images += "</figure></div>";
             images += "<div class=\"card-content\"><div class=\"media\"><div class=\"media-content\">";
                 images += "<p class=\"title is-4\">Spot</p></div></div>";
-            images += "<div class=\"content\"><p>Ex direct trade aliquip fam, single-origin coffee vero church-key.</p></div><nav class=\"level\"><div class=\"level-left\"><a class=\"level-item\"><span class=\"icon is-small\"><i class=\"fa fa-reply\"></i></span></a><a class=\"level-item\"><span class=\"icon is-small\"><i class=\"fa fa-retweet\"></i></span></a><a class=\"level-item\"><span class=\"icon is-small\"><i class=\"fa fa-heart\"></i></span></a></div></nav></div></div>";
+            images += "<div class=\"content\"><p>Ex direct trade aliquip fam, single-origin coffee vero church-key.</p></div><nav class=\"level is-mobile\"><div class=\"level-left is-mobile\"><a class=\"level-item\"><span class=\"icon is-small\"><i class=\"fa fa-reply\"></i></span></a><a class=\"level-item\"><span class=\"icon is-small\"><i class=\"fa fa-retweet\"></i></span></a><a class=\"level-item\"><span class=\"icon is-small\"><i class=\"fa fa-heart\"></i></span></a></div></nav></div></div>";
             
     }
     document.getElementById('animals').innerHTML = images;
