@@ -23,14 +23,15 @@ function callback (resp) {
     var photo = rawData.photos.photo;
     var images = "";
     for (var i = 0; i < photo.length; i++) {
-        images += "<div class=\"card column is-one-third-tablet is-one-quarter-desktop\">";
+        images += "<div class=\"card column is-3-tablet\">";
             images += "<div class=\"card-image\">"; 
                 images += "<figure class=\"image dogPic\">";
                 images += `<img src=\"https://farm${photo[i].farm}.staticflickr.com/${photo[i].server}/${photo[i].id}_${photo[i].secret}_q.jpg\">`;
                 images += "</figure></div>";
             images += "<div class=\"card-content\"><div class=\"media\"><div class=\"media-content\">";
                 images += "<p class=\"title is-4\">Spot</p></div></div>";
-            images += "<div class=\"content\"><p>Ex direct trade aliquip fam, single-origin coffee vero church-key.</p></div></div></div>";
+            images += "<div class=\"content\"><p>Ex direct trade aliquip fam, single-origin coffee vero church-key.</p></div><nav class=\"level\"><div class=\"level-left\"><a class=\"level-item\"><span class=\"icon is-small\"><i class=\"fa fa-reply\"></i></span></a><a class=\"level-item\"><span class=\"icon is-small\"><i class=\"fa fa-retweet\"></i></span></a><a class=\"level-item\"><span class=\"icon is-small\"><i class=\"fa fa-heart\"></i></span></a></div></nav></div></div>";
+            
     }
     document.getElementById('animals').innerHTML = images;
 };
