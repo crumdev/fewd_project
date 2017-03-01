@@ -20,11 +20,17 @@ body {
 #animals {
     flex-wrap: wrap;
     margin-bottom:20px;
+    justify-content: space-around;
 }
+
 
 @media (min-width:768px) {
    .nav-item img {
         max-height: 3em;
+    }
+    .card {
+        margin:10px;
+        border-radius: 10px;
     }
 }
 

@@ -3,10 +3,10 @@ var flickrAPI = {
     key:"aa9a9c9170f71f48ce09da56437fdf65",
     method: "flickr.photos.search",
     format: "json",
-    tags:"dog",
+    tags:"cockapoo",
     contentType:"1",
     page:"1",
-    perPage:"8",
+    perPage:"3",
     privacyFilter:"1",
 }
 var picsURL = `https://api.flickr.com/services/rest/?api_key=${flickrAPI.key}&method=${flickrAPI.method}&format=${flickrAPI.format}&tags=${flickrAPI.tags}&content_type=${flickrAPI.contentType}&page=${flickrAPI.page}&per_page=${flickrAPI.perPage}&nojsoncallback=?&privacy_filter=${flickrAPI.privacyFilter}`;
