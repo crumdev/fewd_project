@@ -19,6 +19,7 @@ body {
 
 #animals {
     flex-wrap: wrap;
+    margin-bottom:20px;
 }
 
 @media (min-width:768px) {
