@@ -4,8 +4,9 @@ Website redesign of [http://www.adoptmebluegrasspetrescue.com/] used as a projec
 
 ### How to view
 
-Because my site utilizes AJAX requests for some of the functionality it must be viewed from a web server. The easiest way for me to distribute this was to use Docker. Please view the system requirement for using Docker
-if you are on an older Mac or Windows machine you may need to use Docker Toolbox instead which is designed to work with these other systems
+Because my site utilizes AJAX requests for some of the functionality it must be viewed from a web server. The easiest way for me to distribute 
+this was to use Docker. Please view the system requirements for using Docker if you are on an older Mac or Windows machine you may need to use 
+Docker Toolbox instead which is designed to work with these other systems
 
 1) Install docker from https://www.docker.com/products/overview  
 2) Clone the project repository to your computer  
