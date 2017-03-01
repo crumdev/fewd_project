@@ -6,7 +6,7 @@ var flickrAPI = {
     tags:"cockapoo",
     contentType:"1",
     page:"1",
-    perPage:"3",
+    perPage:"4",
     privacyFilter:"1",
 }
 var picsURL = `https://api.flickr.com/services/rest/?api_key=${flickrAPI.key}&method=${flickrAPI.method}&format=${flickrAPI.format}&tags=${flickrAPI.tags}&content_type=${flickrAPI.contentType}&page=${flickrAPI.page}&per_page=${flickrAPI.perPage}&nojsoncallback=?&privacy_filter=${flickrAPI.privacyFilter}`;

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Adopt Me! Bluegrass Pet Rescue</title>
+
+    <!--CSS-->
+    <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bulma.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!--END CSS-->
+</head>
+
+<body>
+    <nav class="nav has-shadow">
+        <div class="nav-left">
+            <a class="nav-item">
+                <img src="img/adoptMeLogo.png" alt="logo" class="image">
+            </a>
+        </div>
+
+        <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+        <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+        <span id="nav-toggle" class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        </span>
+        <!-- This "nav-menu" is hidden on mobile -->
+        <!-- Add the modifier "is-active" to display it on mobile -->
+        <div class="nav-right nav-menu">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+        </div>
+    </nav>
+    <div class="container is-fluid">
+        <div class="content columns is-desktop">
+            <div class="column is-8-tablet is-offset-2-tablet is-6-desktop is-offset-3-desktop">
+                <label class="label">Name</label>
+                <p class="control">
+                    <input class="input" type="text" placeholder="Text input">
+                </p>
+                <label class="label">Email</label>
+                <p class="control has-icon has-icon-right">
+                    <input class="input is-danger" type="text" placeholder="Email input" value="hello@">
+                    <span class="icon is-small">
+<i class="fa fa-warning"></i>
+</span>
+                    <span class="help is-danger">This email is invalid</span>
+                </p>
+                <label class="label">Subject</label>
+                <p class="control">
+                    <span class="select">
+<select>
+<option>Select dropdown</option>
+<option>With options</option>
+</select>
+</span>
+                </p>
+                <label class="label">Message</label>
+                <p class="control">
+                    <textarea class="textarea" placeholder="Textarea"></textarea>
+                </p>
+                <p class="control">
+                    <label class="checkbox">
+<input type="checkbox">
+Remember me
+</label>
+                </p>
+                <p class="control">
+                    <label class="radio">
+<input type="radio" name="question">
+Yes
+</label>
+                    <label class="radio">
+<input type="radio" name="question">
+No
+</label>
+                </p>
+                <div class="control is-grouped">
+                    <p class="control">
+                        <button class="button is-primary">Submit</button>
+                    </p>
+                    <p class="control">
+                        <button class="button is-link">Cancel</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JAVASCRIPT-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/flickr.js"></script>
+    <script src="js/script.js"></script>
+    <!--END JAVASCRIPT-->
+</body>
+
+</html>
