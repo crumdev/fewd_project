@@ -3,7 +3,7 @@ var flickrAPI = {
     key:"aa9a9c9170f71f48ce09da56437fdf65",
     method: "flickr.photos.search",
     format: "json",
-    tags:"cockapoo",
+    tags:"pitbull",
     contentType:"1",
     page:"1",
     perPage:"4",
