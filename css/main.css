@@ -1,3 +1,15 @@
+/* Typogrpahy
+*****************************/
+h1,h2{
+    margin-top: 10px;
+}
+
+.icon {
+    color: #99d744;
+}
+
+/* Layout
+*****************************/
 .content {
     background-color: rgba(255,255,255,.4);
     width:100%;
@@ -29,6 +41,13 @@ body {
     box-shadow: none;
     color: #4a4a4a;
 }
+
+.button.is-primary {
+    background-color: #99d744;
+}
+
+/* Media Queries
+*****************************/
 
 @media (min-width:768px) {
    .nav-item img {

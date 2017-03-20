@@ -31,6 +31,9 @@ $(function(){
                 items:1
             },
             768: {
+                items:2
+            },
+            1300: {
                 items:3
             }
         }
@@ -47,7 +50,7 @@ var flickrAPI = {
     key:"aa9a9c9170f71f48ce09da56437fdf65",
     method: "flickr.photos.search",
     format: "json",
-    tags:"pitbull",
+    tags:"kitten",
     contentType:"1",
     page:"1",
     perPage:"4",
