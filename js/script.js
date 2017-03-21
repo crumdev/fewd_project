@@ -83,13 +83,6 @@ function callback (resp) {
 };
 
 /*
-Flickr API Keys
-key: aa9a9c9170f71f48ce09da56437fdf65
-secret: 61a07da6138e2487
-*/
-
-
-/*
  * Random Name generator borrowed from https://jsfiddle.net/katowulf/3gtDf/
  * to create names for the featured pets.
  */
