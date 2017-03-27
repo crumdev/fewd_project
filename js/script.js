@@ -16,7 +16,7 @@ $(function () {
 
 
 /*
- * Slider
+ * Owl Carousel used to rotate tweets on main page
  */
 
 $(function(){
