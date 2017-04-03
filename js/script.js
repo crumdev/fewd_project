@@ -13,37 +13,10 @@ $(function () {
     });
 });
 
-
-
-/*
- * Owl Carousel used to rotate tweets on main page
- */
-
-$(function(){
-    $(".owl-carousel").owlCarousel({
-        loop:true,
-        margin:10,
-        nav:false,
-        autoplay:true,
-        autoplayHoverPause:true,
-        responsive:{
-            0: {
-                items:1
-            },
-            768: {
-                items:2
-            },
-            1300: {
-                items:3
-            }
-        }
-    });
-});
-
 /*
  *
  * Using the flickr API to dynamically load images into the webpage.
- * 
+ *
  */
 
 var flickrAPI = {
@@ -71,7 +44,7 @@ function callback (resp) {
     var images = "";
     for (var i = 0; i < photo.length; i++) {
         images += "<div class=\"adoptable card column is-3-desktop is-4-tablet\">";
-            images += "<div class=\"card-image\">"; 
+            images += "<div class=\"card-image\">";
                 images += "<figure class=\"image dogPic\">";
                 images += `<img src=\"https://farm${photo[i].farm}.staticflickr.com/${photo[i].server}/${photo[i].id}_${photo[i].secret}_q.jpg\">`;
                 images += "</figure></div>";
@@ -86,7 +59,7 @@ function callback (resp) {
  * Random Name generator borrowed from https://jsfiddle.net/katowulf/3gtDf/
  * to create names for the featured pets.
  */
- 
+
  function randomEl(list) {
     var i = Math.floor(Math.random() * list.length);
     return toTitleCase(list[i]);

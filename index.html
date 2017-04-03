@@ -177,7 +177,32 @@
 
     <!--JAVASCRIPT-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.min.js">
+      /*
+       * Owl Carousel used to rotate tweets on main page
+       */
+
+      $(function(){
+          $(".owl-carousel").owlCarousel({
+              loop:true,
+              margin:10,
+              nav:false,
+              autoplay:true,
+              autoplayHoverPause:true,
+              responsive:{
+                  0: {
+                      items:1
+                  },
+                  768: {
+                      items:2
+                  },
+                  1300: {
+                      items:3
+                  }
+              }
+          });
+      });
+    </script>
     <script src="js/script.js"></script>
     <!--END JAVASCRIPT-->
 </body>
