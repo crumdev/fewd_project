@@ -31,13 +31,6 @@ var flickrAPI = {
 }
 var picsURL = `https://api.flickr.com/services/rest/?api_key=${flickrAPI.key}&method=${flickrAPI.method}&format=${flickrAPI.format}&tags=${flickrAPI.tags}&content_type=${flickrAPI.contentType}&page=${flickrAPI.page}&per_page=${flickrAPI.perPage}&nojsoncallback=?&privacy_filter=${flickrAPI.privacyFilter}`;
 
-$.ajax({
-    url: picsURL,
-    method: "GET",
-    dataType: "text",
-    success: callback
-});
-
 function callback (resp) {
     rawData = JSON.parse(resp);
     var photo = rawData.photos.photo;

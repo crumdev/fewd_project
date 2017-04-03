@@ -203,7 +203,14 @@
           });
       });
     </script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js">
+      $.ajax({
+          url: picsURL,
+          method: "GET",
+          dataType: "text",
+          success: callback
+      });
+    </script>
     <!--END JAVASCRIPT-->
 </body>
 
