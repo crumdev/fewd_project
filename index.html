@@ -86,7 +86,7 @@
                         <article class="media">
                             <div class="media-left">
                                 <figure class="image is-64x64">
-                                    <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                    <img src="http://placekitten.com/128/128" alt="Image">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -115,7 +115,7 @@
                         <article class="media">
                             <div class="media-left">
                                 <figure class="image is-64x64">
-                                    <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                    <img src="http://placekitten.com/128/128" alt="Image">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -144,7 +144,7 @@
                         <article class="media">
                             <div class="media-left">
                                 <figure class="image is-64x64">
-                                    <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                    <img src="http://placekitten.com/128/128" alt="Image">
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -177,8 +177,10 @@
 
     <!--JAVASCRIPT-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="js/owl.carousel.min.js">
-      /*
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/JavaScript">
+        /*
        * Owl Carousel used to rotate tweets on main page
        */
 
@@ -202,9 +204,7 @@
               }
           });
       });
-    </script>
-    <script src="js/script.js">
-      $.ajax({
+        $.ajax({
           url: picsURL,
           method: "GET",
           dataType: "text",
