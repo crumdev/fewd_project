@@ -23,9 +23,9 @@ var flickrAPI = {
     key:"aa9a9c9170f71f48ce09da56437fdf65",
     method: "flickr.photos.search",
     format: "json",
-    tags:"kitten",
+    tags:"pet",
     contentType:"1",
-    page:"1",
+    page:Math.floor(Math.random() * 20).toString(),
     perPage:"4",
     privacyFilter:"1",
 }
